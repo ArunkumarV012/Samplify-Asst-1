@@ -1,0 +1,38 @@
+.avatar-container {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.avatar-container img {
+  width: 100%;
+  height: auto;
+}
+
+.outdated-warning {
+  background-color: #ffcccc;
+  color: #990000;
+  border: 1px solid #cc0000;
+  font-size: 0.75rem;
+  padding: 5px;
+  line-height: 1;
+}
+
+.outdated-warning p {
+  margin: 0;
+}
+
+.user-details span {
+  font-weight: bold;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+}
